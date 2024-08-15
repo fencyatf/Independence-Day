@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: url('india-independence-movement.webp') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .main-content{
+    padding-top: 10px;
+  }
+  .flag-colors {
+    background: linear-gradient(90deg, orange 33.33%, white 33.33%, white 66.66%, green 66.66%);
+    height: 50px;
+  }
+
+  .content h2{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: center;
+  }
+  .quote {
+    font-style: italic;
+    margin: 30px 0;
+    font-size: 1.2rem;
+    color: #643535;
+  }
+
+  .content {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    /* text-align: center; */
+  }
+
+  #history h2{
+    text-align: center;
+  }
+  
+  .video-carousel img {
+    width: 100%;
+    height: auto;
+  }
+
+  .milestones h2 {
+    font-size: 2.5rem;
+    color: #2C3E50;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.freedom-art {
+    padding: 40px 30px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.art-gallery {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.art-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    text-align: left;
+}
+
+.art-image {
+    width: 100%;
+    height: auto;
+}
+
+.art-info {
+    padding: 20px;
+}
+
+.art-info h3 {
+    font-size: 22px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.art-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+#about{
+    background-color: #c0bfbf;
+}
+#about h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
